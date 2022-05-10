@@ -1,0 +1,141 @@
+@font-face
+{
+	font-family: League;
+	src:url(LeagueSpartan-Bold.otf);
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+  }
+  to {
+    text-shadow: 0 0 20px #f2e2d0, 0 0 30px #f2e2d0, 0 0 40px #f2e2d0, 0 0 50px #f2e2d0, 0 0 60px #f2e2d0, 0 0 70px #f2e2d0, 0 0 80px #f2e2d0;
+  }
+}
+
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	background-color: #211d16 ;
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+a.przycisk{
+	padding: 5px 15px;
+	display: block;
+	border-left: 1px #211d16 solid;
+	border-right:  1px #211d16 solid;
+	transition: 1s;
+
+}
+
+#nav-list li a.przycisk:hover{
+	border-color: white;
+	box-shadow: 0 0 30px rgba(0,0,0,.5);
+
+}
+a#strefa-klienta-przycisk {
+	border: 1px white solid;
+	border-radius: 50px;
+	padding: 5px 15px;
+	display: block;
+	transition: 1s;
+
+}
+
+a#strefa-klienta-przycisk:hover{
+	box-shadow:  0 0 5px white, 0 0 7px white;
+}
+#nav-list li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+
+ul#nav-list{
+	text-align: right;
+	margin: 0 0 0 0;
+	box-shadow: 0 0 20px black;
+}
+
+
+}
+#fullpage{
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+}
+#fullpage section{
+	height: 100vh;
+	width: 100%;
+}
+#fullpage section:nth-child(1){
+	position: relative;
+	height:94vh;
+}
+#fullpage section:nth-child(2){
+	position: relative;
+}
+#fullpage section:nth-child(3){
+	position: relative;
+}
+#fullpage section:nth-child(4){
+	position: relative;
+}
+#fullpage section:nth-child(5){
+	position: relative;
+}
+#fullpage section:nth-child(6){
+	position: relative;
+}
+#fullpage section:nth-child(7){
+	position: relative;
+	height: 50vh;
+	text-align: center;
+	
+}
+
+#fullpage section video{
+	width:100%;
+	height: 100vh;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+#fullpage section h1{
+	margin:0;
+	padding:0;
+	text-align: center;
+	line-height: 100vh;
+	position: absolute;
+	mix-blend-mode: screen;
+	font-family: 'League';
+	background-color: #414042;
+	font-size: 15vw;
+	color:black;
+	width:100%;
+
+}
+
+
+
+h2{
+	padding:10px;
+	display:inline-block;
+	font-size: 2em;
+	border-bottom: 2px solid white
+}
+
+#dane p, #dane h3{
+	margin: 10px;
+}
